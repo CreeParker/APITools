@@ -1,6 +1,6 @@
 name: APITools
 main: APITools\APITools
-version: 0.1
+version: 0.2
 api:
 - 3.0.0-ALPHA1
 - 3.0.0-ALPHA2
