@@ -49,7 +49,7 @@ class APITools extends PluginBase{
 				$api[] = $this->api;
 				$config->set('api', $api);
 				$config->save();
-				$this->logger->info("§a[APITools] '$name'を'API[$this->api]'に対応させました");
+				$this->logger->info("§e[APITools] '$name'を'API[$this->api]'に対応させました");
 			}
 		}else{
 			if($api != $this->api){
